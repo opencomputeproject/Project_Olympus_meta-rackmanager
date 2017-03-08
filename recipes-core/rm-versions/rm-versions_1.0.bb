@@ -2,14 +2,15 @@ DESCRIPTION = "Get RM version info"
 SECTION = "core"
 LICENSE = "GPLv2"
 
-LIC_FILES_CHKSUM = "file://LICENSE.md;md5=082b4b727e4aa05e111f61cd44674430"
+LIC_FILES_CHKSUM = "file://rmversions.sh;beginline=3;endline=8;md5=3f33611ea3245ee13c56e410b84db27d"
 
 PR = "r0"
 
-SRC_URI =  "file://rmversions.sh \
-			file://pkg-info \
-			file://rfs-info \
-			file://LICENSE.md"
+SRC_URI =  " \
+    file://rmversions.sh \
+    file://pkg-info \
+    file://rfs-info \
+"
 
 S = "${WORKDIR}"
 

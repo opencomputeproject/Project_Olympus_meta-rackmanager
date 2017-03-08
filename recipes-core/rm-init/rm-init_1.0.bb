@@ -3,12 +3,11 @@ SECTION = "core"
 LICENSE = "GPLv2"
 PR = "r0"
 
-LIC_FILES_CHKSUM = "file://LICENSE.md;md5=082b4b727e4aa05e111f61cd44674430"
+LIC_FILES_CHKSUM = "file://rminit.sh;beginline=3;endline=8;md5=3f33611ea3245ee13c56e410b84db27d"
 
 SRC_URI = " \
     file://rminit.sh \
     file://exports \
-    file://LICENSE.md \
 "
 
 S = "${WORKDIR}"
