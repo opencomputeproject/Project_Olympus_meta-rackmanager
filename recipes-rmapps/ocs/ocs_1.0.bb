@@ -9,7 +9,7 @@ PR = "r0"
 SRCREV = "${AUTOREV}"
 PV = "1.0-git${SRCPV}"
 
-SRC_URI = "git://github.com/Project-Olympus/meta-rackmanager.git;protocol=https;protocol=ssh;subpath=ocs"
+SRC_URI = "git://github.com/Project-Olympus/rackmanager.git;protocol=https;subpath=ocs"
 
 S = "${WORKDIR}/ocs"
 

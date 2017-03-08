@@ -3,7 +3,7 @@ LIC_FILES_CHKSUM = "file://../LICENSE.txt;md5=b9fa8adffea4ca5ddf358161d0f9e652"
 SRCREV = "${AUTOREV}"
 PV = "1.0-git${SRCPV}"
 
-SRC_URI = "git://github.com/Project-Olympus/meta-rackmanager.git;protocol=https;subpath=python-ocs"
+SRC_URI = "git://github.com/Project-Olympus/rackmanager.git;protocol=https;subpath=python-ocs"
 
 S = "${WORKDIR}/python-ocs/${PYTHON_NAME}"
 
